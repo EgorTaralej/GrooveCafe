@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ink text-cream font-sans antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-tight;
+  }
+  ::selection {
+    @apply bg-amber-500 text-ink;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-amber-400;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+  .section {
+    @apply py-20 sm:py-28;
+  }
+  /* Fine vinyl-groove texture used as a subtle background */
+  .grooves {
+    background-image: repeating-radial-gradient(
+      circle at 50% 50%,
+      rgba(255, 255, 255, 0.025) 0,
+      rgba(255, 255, 255, 0.025) 1px,
+      transparent 1px,
+      transparent 7px
+    );
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-spin-slow,
+  .animate-fade-up {
+    animation: none !important;
+  }
+}
