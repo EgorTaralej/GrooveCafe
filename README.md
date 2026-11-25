@@ -2,6 +2,8 @@
 
 Groove Café е фронтенд макет на сайт за кафене с плочи и музика на живо. Посетителите разглеждат менюто и предстоящите събития и резервират места, а администраторът управлява съдържанието от собствен панел. Проектът е само фронтенд, без бекенд, а данните се пазят в браузъра.
 
+<img width="2438" height="6890" alt="mainpage" src="https://github.com/user-attachments/assets/6e87ff14-0cce-45cd-b1d6-edbc2f3fb520" />
+
 ## ✨ Основни функционалности
 
 - **Резервации за събития:** модален прозорец с име, телефон, дата, предпочитан час, брой гости и бележки. Формата не позволява повече гости от свободните места, а при изчерпани места бутонът „Резервирай“ се изключва.
@@ -11,6 +13,16 @@ Groove Café е фронтенд макет на сайт за кафене с �
 - **Страници „За нас“ и „Контакти“:** работно време, адрес с карта и контактна форма с брояч на символите.
 - **Бутон „Обади се“:** директно обаждане от мобилно устройство.
 - **Адаптивен дизайн:** тъмна тема в кехлибарени тонове („кафене на приглушена светлина“), оптимизирана за мобилни устройства и десктоп.
+
+<img width="1864" height="925" alt="reservation" src="https://github.com/user-attachments/assets/427551a4-2262-41ab-92fd-b089a73f6aba" />
+<img width="2438" height="5978" alt="menu" src="https://github.com/user-attachments/assets/ec258159-5a91-4524-8c01-01301fa0f3f4" />
+<img width="2438" height="2638" alt="events" src="https://github.com/user-attachments/assets/dbf94a54-3e40-4e4b-b13d-acd65ebdddfa" />
+<img width="2438" height="5194" alt="about" src="https://github.com/user-attachments/assets/97697e7c-3ea7-4587-8aff-2565a87b741b" />
+<img width="2438" height="4088" alt="contact" src="https://github.com/user-attachments/assets/9d8e3e03-15e6-4853-bff9-a4bf0989f801" />
+<img width="2438" height="2270" alt="admin" src="https://github.com/user-attachments/assets/6c8aa36d-391c-4e1a-8171-fca9f3dea53f" />
+<img width="2438" height="5984" alt="admin2" src="https://github.com/user-attachments/assets/599fd749-50fa-47a6-8c9e-bf6b908aba2d" />
+
+
 
 ## 🛠️ Технологичен стек
 
